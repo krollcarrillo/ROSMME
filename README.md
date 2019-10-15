@@ -5,7 +5,7 @@ Setting up an in-house cluster
 The ISO image will be downloaded in the folder `/distro/iso/`, which is already created. We are going to use CentOS 7.5 in our cluster. The ISO image was downloaded from the mirror in the UPB:
 ```
 $> cd /distro/iso
-$> cd wget http://mirror.upb.edu.co/centos/7.5.1804/isos/x86_64/CentOS-7-x86_64
+$>  wget http://mirror.upb.edu.co/centos/7.5.1804/isos/x86_64/CentOS-7-x86_64
 ```
 Create the folder where the repository is going to be located:
 ```
