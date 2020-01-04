@@ -27,6 +27,6 @@ In order to have the files of the ISO image available for a future installation,
 The following commands allow us to verify that the additional line in `/etc/fstab` works as expected:
 ```
 $> mount /distro/CentOS-7.5-x86_64
-$> dg /distro/CentOS-7.5-x86_64/
+$> df /distro/CentOS-7.5-x86_64/
 ```
 Thus, when `$> ls /distro/CentOS-7.5-x86_64/` is excecuted, the installation files are shown.
